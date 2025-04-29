@@ -10,9 +10,6 @@ package model;
  */
 public class Cachorro extends Animal {
 
-    public Cachorro() {
-    }
-
     @Override
     public void mover() {
         System.out.println("Mover: Andar");

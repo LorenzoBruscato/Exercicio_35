@@ -10,9 +10,6 @@ package model;
  */
 public class Ave extends Animal {
 
-    public Ave() {
-    }
-
     @Override
     public void mover() {
         System.out.println("Mover: Voar");
