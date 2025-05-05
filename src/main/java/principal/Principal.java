@@ -15,15 +15,14 @@ import model.Animal;
 public class Principal {
 
     public static void main(String[] args) {
-        Animal c1 = new Cachorro();
-        Animal a1 = new Ave();
-
+        Animal c = new Cachorro();
+        Animal a = new Ave();
         System.out.println("Cachorro:");
-        c1.mover();
-        c1.produzirSom();
+        c.mover();
+        c.produzirSom();
 
         System.out.println("\nAve:");
-        a1.mover();
-        a1.produzirSom();
+        a.mover();
+        a.produzirSom();
     }
 }
